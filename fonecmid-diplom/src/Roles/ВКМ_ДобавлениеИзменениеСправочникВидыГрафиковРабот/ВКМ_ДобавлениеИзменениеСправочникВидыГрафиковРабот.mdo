@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4b42040-4f3e-4559-8be4-e8ae7ffc23c8">
+  <name>ВКМ_ДобавлениеИзменениеСправочникВидыГрафиковРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ добавление изменение справочник виды графиков работ</value>
+  </synonym>
+</mdclass:Role>

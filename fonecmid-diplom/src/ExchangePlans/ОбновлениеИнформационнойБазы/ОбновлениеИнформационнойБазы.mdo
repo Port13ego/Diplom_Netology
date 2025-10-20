@@ -247,6 +247,10 @@
     <mdObject>InformationRegister.КлючиДоступаВнешнихПользователей</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
   </content>
   <content>

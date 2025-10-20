@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc9b0119-6e03-4ae8-b6eb-b6769eae2271">
+  <producedTypes>
+    <objectType typeId="a03d7bcc-fc33-4e43-9621-e629657129d5" valueTypeId="89a4a677-5531-4c03-b5cd-0f47a3b81f1d"/>
+    <managerType typeId="c457e523-bf6c-481e-80fd-e7f7fe6beecf" valueTypeId="fe64283f-4d69-4414-af5b-6598772c1125"/>
+  </producedTypes>
+  <name>ОтключениеЗащитыОтОпасныхДействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключение защиты от опасных действий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтключениеЗащитыОтОпасныхДействий.Form.Форма</defaultForm>
+  <forms uuid="ce33ab01-6f87-42b6-bfc0-bddfca7edb88">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

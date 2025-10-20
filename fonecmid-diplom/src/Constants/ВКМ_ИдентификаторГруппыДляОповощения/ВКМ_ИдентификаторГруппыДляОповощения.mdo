@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28f7aec-302b-4e8a-885a-92ad0067a3a6">
+  <producedTypes>
+    <managerType typeId="6b60fc48-72d6-421f-95a4-de81fc428058" valueTypeId="05d97b8e-03a3-4720-b908-7cc18ef8b3a2"/>
+    <valueManagerType typeId="7115b61f-f04b-463d-bdb8-19dcfb3da960" valueTypeId="47acd59d-d22a-42e4-95bf-f8dcac06c028"/>
+    <valueKeyType typeId="a1a768fe-d7bc-4a8e-98cd-2c1ba5be6464" valueTypeId="74b6e1e4-753f-4fe9-a004-d040074c945d"/>
+  </producedTypes>
+  <name>ВКМ_ИдентификаторГруппыДляОповощения</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ идентификатор группы для оповощения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

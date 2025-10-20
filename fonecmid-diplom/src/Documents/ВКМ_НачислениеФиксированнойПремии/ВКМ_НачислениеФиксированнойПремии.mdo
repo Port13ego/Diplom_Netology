@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86df2e82-3397-43aa-82cf-852905e25d8f">
+  <producedTypes>
+    <objectType typeId="7c43b52b-8c50-4fd8-9c46-34d9b2c70359" valueTypeId="bdb64499-c3ee-43ad-a5e5-e040009f2e67"/>
+    <refType typeId="5b94768f-70b2-4557-bf12-a61035fdb82b" valueTypeId="b1cca87e-4ee5-43e2-84b5-0318537e5c3e"/>
+    <selectionType typeId="dd033af8-3f5b-43df-a5ee-b9430104e6c0" valueTypeId="f6384c51-8cbe-4e74-a2a9-e23883162c4e"/>
+    <listType typeId="4c1f12d0-4ed1-466f-a6ba-2a8049824d1c" valueTypeId="b874c1c3-0810-4533-914f-ee6cc35de14b"/>
+    <managerType typeId="c47df1a0-bc99-4432-a6aa-d2c31c04a12e" valueTypeId="ed0529ce-a411-4ca8-8dc1-00038caa8839"/>
+  </producedTypes>
+  <name>ВКМ_НачислениеФиксированнойПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ начисление фиксированной премии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_НачислениеФиксированнойПремии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_НачислениеФиксированнойПремии.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="5d7e2643-a5e1-406c-8df6-96e393993013">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9b16e3a5-1bf7-44a5-9b06-bbf304d5cd86">
+    <producedTypes>
+      <objectType typeId="400565c4-3c99-429e-949d-e56624069bc3" valueTypeId="c69633b7-2527-4650-9136-73a9c6c0dae0"/>
+      <rowType typeId="a8c54bc7-fe22-4320-89ba-2539d1853bb2" valueTypeId="93d43f84-66ba-44fc-8a7d-dbb2a7933c81"/>
+    </producedTypes>
+    <name>ПремияСотрудникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия сотрудникам</value>
+    </synonym>
+    <attributes uuid="77aae20d-aa60-4c4e-ad12-c3769a4942ea">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63aaa394-a3cc-4405-82c3-831bfa422019">
+      <name>СуммаПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
